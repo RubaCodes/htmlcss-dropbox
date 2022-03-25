@@ -107,3 +107,30 @@ header.container{
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+/* PRICING SECTION */
+.pricing{
+    
+}
+.pricing .container{
+    width: 1080px;
+    margin: auto;
+}
+.pricing .header{
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+/* da fare spacing dei radio */
+.pricing .clearfix{
+    width: 100%;
+}
+.col-pricing{
+    text-align: center;
+    width: calc(100% /3 - 80px);
+    min-height: 800px;
+    border: 1px solid black;
+    float: left;
+}
+.col-pricing.standard{
+    margin: 0 40px;
+}
