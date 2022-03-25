@@ -57,6 +57,9 @@ header.container{
 }
 
 /* HERO */
+.hero{
+    background-color: aqua;
+}
 .hero.container{
     width: 1330px;
     margin: auto;
@@ -72,4 +75,7 @@ header.container{
 }
 .col-hero-small{
     width: 40%;
+}
+.float-container.clearfix{
+    margin-top: 40px;
 }
