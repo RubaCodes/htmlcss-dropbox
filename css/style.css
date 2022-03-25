@@ -139,7 +139,7 @@ header.container{
     border-bottom: 1px solid #e5e5e6;
 }
 
-/* STYLING ELEMENTI BODY COLONNA */
+/* STYLING ELEMENTI BODY COLONNA- ritornarci per migliorare i padding e i margini*/
 .col-pricing-top,.col-pricing-bottom {
     padding: 0 40px;
 
@@ -164,4 +164,13 @@ header.container{
 }
  .col-pricing-bottom li i{
      color: #1a58fa;
+}
+
+/* FOOTER SEZIONE PRICING */
+.footer-title{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #e5e5e6;
+    margin-top: 40px;
+
 }
