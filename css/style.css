@@ -19,14 +19,19 @@ body{
 }
 
 .btn{
-    color: white;
-    background-color: blue;
+    color: black;
+    background-color: white;
+    /* border: 1px solid black;
+    padding: 5px 10px ; */
 }
 
 /* HEADER */
+/* Omologare i padding in un secondo momento */
 header.container{
     width: 100%;
     padding: 20px;
+    /* position: fixed;
+    z-index: 10; */
 }
 .col-header{
     width: 50%; 
@@ -35,15 +40,36 @@ header.container{
 .col-header:last-of-type{
     float: right;  
     text-align: right;
+    
 }
 .col-header ul, .col-header ul li,.col-header ul li a ,.logo-small{
     display: inline-block;
     vertical-align: middle;
     /* allineamento verticale header */
+    text-decoration: none;
+    color: black;
 }
 .col-header ul li{
     padding: 0 10px;
 }
 .logo-small{
     padding-right: 10px;
+}
+
+/* HERO */
+.hero.container{
+    width: 1330px;
+    margin: auto;
+}
+.col-hero-big,.col-hero-small{
+    float: left;
+}
+.col-hero-big{
+    width: 60%;
+}
+.col-hero-big img{
+    width: 100%;
+}
+.col-hero-small{
+    width: 40%;
 }
