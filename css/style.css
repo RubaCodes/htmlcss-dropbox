@@ -58,7 +58,7 @@ header.container{
 
 /* HERO */
 .hero{
-    background-color: aqua;
+    background-color: #b1cee5;
 }
 .hero.container{
     width: 1330px;
@@ -68,14 +68,18 @@ header.container{
     float: left;
 }
 .col-hero-big{
-    width: 60%;
+    width: 70%;
 }
 .col-hero-big img{
     width: 100%;
 }
 .col-hero-small{
-    width: 40%;
+    width: 30%;
 }
 .float-container.clearfix{
     margin-top: 40px;
+}
+.hero-header{
+    padding-top: 50px;
+    font-size: 50px;
 }
