@@ -24,6 +24,17 @@ body{
 }
 
 /* HEADER */
+header.container{
+    width: 100%;
+}
 .col-header{
-    width: 50;    
+    width: 50%; 
+    float: left;  
+}
+.col-header:last-of-type{
+    float: right;  
+    text-align: right;
+}
+.col-header ul, .col-header ul li,.col-header ul li a {
+    display: inline-block;
 }
