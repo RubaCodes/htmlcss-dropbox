@@ -10,3 +10,20 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* COMMON */
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn{
+    color: white;
+    background-color: blue;
+}
+
+/* HEADER */
+.col-header{
+    width: 50;    
+}
