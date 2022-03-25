@@ -167,10 +167,33 @@ header.container{
 }
 
 /* FOOTER SEZIONE PRICING */
-.footer-title{
+.pricing-footer .footer-title{
     padding: 10px;
     text-align: center;
     border: 1px solid #e5e5e6;
     margin-top: 40px;
-
 }
+.pricing-footer-main {
+    border: 1px solid #e5e5e6;
+    border-top: none;
+    padding: 20px;
+}
+.pricing-footer-main .col-left{
+    width: 70%;
+    float: left;
+}
+.pricing-footer-main .col-right{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.pricing-footer-main .col-right .btn-blue{
+    vertical-align: middle;
+    line-height: 33px;
+    padding: 5px 50px;
+}
+.pricing-footer-main .col-right h2{
+    vertical-align: middle;
+}
+    
+
