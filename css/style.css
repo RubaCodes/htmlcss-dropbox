@@ -109,9 +109,7 @@ header.container{
 }
 
 /* PRICING SECTION */
-.pricing{
-    
-}
+
 .pricing .container{
     width: 1080px;
     margin: auto;
@@ -126,7 +124,7 @@ header.container{
 }
 .col-pricing{
     width: calc(100% /3 - 80px/3);
-    min-height: 800px;
+    min-height: 1100px;
     border: 1px solid #e5e5e6;
     float: left;
 }
@@ -149,7 +147,7 @@ header.container{
 .col-pricing-top ul, .col-pricing-bottom ul{
     list-style-type: none;
 }
-.col-pricing h3,.col-pricing .price,.col-pricing .period,.col-pricing div{
+.col-pricing h3,.col-pricing .price,.col-pricing .period,.col-pricing .col-pricing-bottom div,.col-pricing .col-pricing-top div{
     padding-top: 25px;
 }
 .col-pricing ul {
