@@ -126,7 +126,7 @@ header.container{
 }
 .col-pricing{
     text-align: center;
-    width: calc(100% /3 - 80px);
+    width: calc(100% /3 - 80px/3);
     min-height: 800px;
     border: 1px solid black;
     float: left;
