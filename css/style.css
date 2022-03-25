@@ -26,6 +26,7 @@ body{
 /* HEADER */
 header.container{
     width: 100%;
+    padding: 20px;
 }
 .col-header{
     width: 50%; 
@@ -38,4 +39,11 @@ header.container{
 .col-header ul, .col-header ul li,.col-header ul li a ,.logo-small{
     display: inline-block;
     vertical-align: middle;
+    /* allineamento verticale header */
+}
+.col-header ul li{
+    padding: 0 10px;
+}
+.logo-small{
+    padding-right: 10px;
 }
