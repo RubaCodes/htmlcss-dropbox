@@ -116,7 +116,7 @@ header.container{
     width: 1080px;
     margin: auto;
 }
-.pricing .header{
+.pricing {
     padding-top: 200px;
     padding-bottom: 50px;
 }
@@ -125,7 +125,6 @@ header.container{
     width: 100%;
 }
 .col-pricing{
-    text-align: center;
     width: calc(100% /3 - 80px/3);
     min-height: 800px;
     border: 1px solid black;
@@ -133,4 +132,15 @@ header.container{
 }
 .col-pricing.standard{
     margin: 0 40px;
+}
+
+/* STYLING HEADER COL-PRICING */
+.pricing-header{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+.pricing-header::before{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f007";
 }
