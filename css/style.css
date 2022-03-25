@@ -140,7 +140,30 @@ header.container{
     padding: 10px 0;
     border-bottom: 1px solid #e5e5e6;
 }
-.pricing-header::before{
-    font-family: "Font Awesome 5 Free"; 
-    content: "\f007";
+
+/* STYLING ELEMENTI BODY COLONNA */
+.col-pricing-top,.col-pricing-bottom {
+    padding: 0 40px;
+
+}
+.col-pricing-top ul, .col-pricing-bottom ul{
+    list-style-type: none;
+}
+.col-pricing h3,.col-pricing .price,.col-pricing .period,.col-pricing div{
+    padding-top: 25px;
+}
+.col-pricing ul {
+    padding: 25px 0;
+}
+.col-pricing ul li {
+    margin: 15px 0;
+}
+.col-pricing hr{
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 20%;
+    color:#e5e5e6;
+}
+ .col-pricing-bottom li i{
+     color: #1a58fa;
 }
