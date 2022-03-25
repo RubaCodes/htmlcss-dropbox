@@ -127,7 +127,7 @@ header.container{
 .col-pricing{
     width: calc(100% /3 - 80px/3);
     min-height: 800px;
-    border: 1px solid black;
+    border: 1px solid #e5e5e6;
     float: left;
 }
 .col-pricing.standard{
@@ -138,7 +138,7 @@ header.container{
 .pricing-header{
     text-align: center;
     padding: 10px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #e5e5e6;
 }
 .pricing-header::before{
     font-family: "Font Awesome 5 Free"; 
