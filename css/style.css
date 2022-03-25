@@ -35,6 +35,7 @@ header.container{
     float: right;  
     text-align: right;
 }
-.col-header ul, .col-header ul li,.col-header ul li a {
+.col-header ul, .col-header ul li,.col-header ul li a ,.logo-small{
     display: inline-block;
+    vertical-align: middle;
 }
