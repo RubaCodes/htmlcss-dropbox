@@ -117,11 +117,6 @@ header.container{
 }
 
 /* PRICING SECTION */
-
-.pricing .container{
-    width: 1080px;
-    margin: auto;
-}
 .pricing {
     padding-top: 200px;
     padding-bottom: 50px;
@@ -215,31 +210,29 @@ header.container{
 
 /* PARTNER SECTION */
     
-.partner.container{
-    width: 1080px;
-    margin: auto;
+.partner{
     margin-top: 100px;
 }
-.partner.container .col-big{
+.partner .col-big{
     width: 60%;
     float: left;
 }
-.partner.container .col-big img{
+.partner .col-big img{
     width: 100%;
 
 }
-.partner.container .col-little{
+.partner .col-little{
     width: calc(40% - 40px);
     float: left;
     margin-left: 40px;
 }
-.partner.container .col-little h2{
+.partner .col-little h2{
    padding-top: 30px;
 }
-.partner.container .col-little p{
+.partner .col-little p{
     padding-top: 20px;
  }
- .partner.container .col-little .btn{
+ .partner .col-little .btn{
     margin-top: 40px;
  }
 
