@@ -195,5 +195,13 @@ header.container{
 .pricing-footer-main .col-right h2{
     vertical-align: middle;
 }
+.pricing-footer-main .col-left p{
+    padding-top: 20px ;
+    font-weight: bold;
+}
+.pricing-footer-main .col-left small{
+    display: inline-block;
+    padding-top: 30px;
+}
     
 
