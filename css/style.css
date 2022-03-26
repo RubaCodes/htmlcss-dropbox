@@ -95,6 +95,8 @@ header.container{
   position: absolute;
   bottom: -80px;
 }
+
+/* PROVARE A SPOSTARE I CONTENUTI NON LE COLONNE FLOTTANTI */
 .hero-header{
     padding-top: 150px;
     font-size: 50px;
@@ -204,5 +206,24 @@ header.container{
     padding-top: 30px;
     padding-bottom: 20px;
 }
-    
 
+/* PARTNER SECTION */
+    
+.partner.container{
+    width: 1080px;
+    margin: auto;
+    margin-top: 100px;
+}
+.partner.container .col-big{
+    width: 60%;
+    float: left;
+}
+.partner.container .col-big img{
+    width: 100%;
+
+}
+.partner.container .col-little{
+    width: calc(40% - 40px);
+    float: left;
+    margin-left: 40px;
+}
