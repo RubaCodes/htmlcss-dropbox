@@ -269,3 +269,25 @@ header.container{
 .operations .col p{
     padding-top: 40px;
 }
+
+/* TEAM SECTION */
+.team{
+    padding-top:50px;
+}
+.team-header h2{
+    width: 55%;  
+    padding-bottom: 30px;
+}
+/* SPACING DELLE COLONNE DEL MAIN */
+
+.team-main{
+    width: 100%;
+}
+.team-main .col{
+    width: 30%;
+    float: left;
+}
+.team-main .col:nth-child(2n){
+    width: 40%;
+    float: left;
+}
