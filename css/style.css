@@ -13,6 +13,12 @@ body{
 .fa-solid.fa-arrow-down-long{
     font-size: 32px;
 }
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 24px;
+}
 
 /* COMMON */
 .clearfix{
@@ -196,7 +202,7 @@ header.container{
     padding: 5px 50px;
 }
 .pricing-footer-main .col-right h2{
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 .pricing-footer-main .col-left p{
     padding-top: 20px ;
@@ -237,6 +243,9 @@ header.container{
  }
 
  /* OPERATIONS SECTION */
+.operations{
+    padding: 100px 0;
+}
 .operations .col{
     width: calc(100%/3 - 80px / 3 );
     float: left;
@@ -244,7 +253,17 @@ header.container{
 .operations .col:nth-child(2n){
     margin: 0 40px;
 }
+.operations .row{
+    margin-top: 60px;
+}
 
 .operations .col img{
     width: 100%;
+}
+.operations .col h3{
+    font-size: 26px;
+    
+}
+.operations .col p{
+    padding-top: 40px;
 }
