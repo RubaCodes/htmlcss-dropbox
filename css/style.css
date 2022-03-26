@@ -237,3 +237,14 @@ header.container{
  }
 
  /* OPERATIONS SECTION */
+.operations .col{
+    width: calc(100%/3 - 80px / 3 );
+    float: left;
+}
+.operations .col:nth-child(2n){
+    margin: 0 40px;
+}
+
+.operations .col img{
+    width: 100%;
+}
