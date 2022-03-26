@@ -176,7 +176,7 @@ header.container{
 .pricing-footer-main {
     border: 1px solid #e5e5e6;
     border-top: none;
-    padding: 20px;
+    padding: 30px;
 }
 .pricing-footer-main .col-left{
     width: 70%;
@@ -202,6 +202,7 @@ header.container{
 .pricing-footer-main .col-left small{
     display: inline-block;
     padding-top: 30px;
+    padding-bottom: 20px;
 }
     
 
