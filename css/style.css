@@ -23,6 +23,7 @@ body{
 
 .btn{
     color: black;
+    display: inline-block;
     background-color: white;
     border: 1px solid black;
     padding: 5px 15px ; 
@@ -227,3 +228,12 @@ header.container{
     float: left;
     margin-left: 40px;
 }
+.partner.container .col-little h2{
+   padding-top: 30px;
+}
+.partner.container .col-little p{
+    padding-top: 20px;
+ }
+ .partner.container .col-little .btn{
+    margin-top: 40px;
+ }
