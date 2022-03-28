@@ -333,7 +333,7 @@ header.container{
     font-weight: bold;
 }
 
-.faq-header{
+.faq{
     padding: 40px 0;
 }
 .faq-element{
@@ -346,3 +346,11 @@ header.container{
 }
 
 
+/* footer */
+.footer-top{
+    width: 100%;
+} 
+footer .col{
+    width: 20%;
+    float: left;
+}
