@@ -347,10 +347,46 @@ header.container{
 
 
 /* footer */
-.footer-top{
-    width: 100%;
-} 
-footer .col{
-    width: 20%;
-    float: left;
-}
+    /* footer top */
+    footer{
+        padding: 40px 0;
+        background-color: black;
+        color: white;
+    }
+    .footer-top{
+        width: 100%;
+        padding: 40px 0;
+    } 
+    footer .col{
+        width: 20%;
+        float: left;
+    }
+    footer h3{
+        padding: 20px 0;
+        text-transform: capitalize;
+    }
+
+    footer li{
+        list-style: none;
+        line-height: 30px;
+        font-weight: bold;
+    }
+    /* footer hr */
+    footer hr{
+        width: 10%;
+        color: #e5e5e6;
+        text-align: right;
+    }
+    /* footer bottom */
+    .footer-bottom{
+        padding: 40px 0;
+    }
+    .footer-bottom .language{
+        display: inline-block;
+    }
+    .footer-bottom .language::before{
+        font-family: "Font Awesome 6 Free";
+        content: "\f57d";
+        font-weight: bold;
+        margin-right: 4px;
+    }
