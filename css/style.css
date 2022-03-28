@@ -165,8 +165,15 @@ header.container{
 .col-pricing-top ul, .col-pricing-bottom ul{
     list-style-type: none;
 }
-.col-pricing h3,.col-pricing .price,.col-pricing .period,.col-pricing .col-pricing-bottom div,.col-pricing .col-pricing-top div{
+.col-pricing h3,.col-pricing .price,.col-pricing .col-pricing-bottom div,.col-pricing .col-pricing-top div{
     padding-top: 25px;
+}
+.col-pricing .period{
+    padding-bottom: 20px;
+    color: #c8ced3;
+}
+.col-pricing .price{
+    font-weight: bold;
 }
 .col-pricing ul {
     padding: 25px 0;
@@ -180,7 +187,10 @@ header.container{
     width: 20%;
     color:#e5e5e6;
 }
- .col-pricing-bottom li i{
+ .col-pricing-bottom li::before{
+     content: "\f00c";
+     font-family: "Font Awesome 6 Free";
+     font-weight: 900;
      color: #1a58fa;
 }
 
@@ -246,10 +256,9 @@ header.container{
 }
 .partner .col-little p{
     padding-top: 20px;
+    padding-bottom: 40px;
  }
- .partner .col-little .btn{
-    margin-top: 40px;
- }
+
 
  /* OPERATIONS SECTION */
 .operations{
@@ -294,6 +303,7 @@ header.container{
 }
 .team-main .col-big{
     width: 40vw;
+    overflow: scroll;
 }
 .team-main .col-left, .team-main .col-right{
     width: 30vw;
