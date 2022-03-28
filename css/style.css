@@ -285,34 +285,15 @@ header.container{
     height: 30vw;
     position: relative;
 }
+.team-mian .col-big{
+    width: 40vw;
+}
+.team-main .col-left, .team-main .col-right{
+    width: 30vw;
+}
 .team-main .square{
     height: 15vw;
     width: 15vw;
-}
-/* colonna sinistra */
-.team-main .square:nth-child(1){
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #a2d39b;
-}
-.team-main .square:nth-child(2){
-    position: absolute;
-    top: 0;
-    left: 15vw;
-    background-color: #61082b;
-}
-.team-main .square:nth-child(3){
-    position: absolute;
-    top: 15vw;
-    left: 0vw;
-    background-color: #0093ce;
-}
-.team-main .square:nth-child(4){
-    position: absolute;
-    top: 15vw;
-    left: 15vw;
-    background-color: #ff1c1c;
 }
 .team-main img{
     width: 50%;
@@ -322,6 +303,64 @@ header.container{
     transform: translate(-50%,-50%);
     filter: invert(100%);
 
+}
+/* colonna sinistra */
+.team-main .col-left .square:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #a2d39b;
+}
+.team-main .col-left .square:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 15vw;
+    background-color: #61082b;
+}
+.team-main .col-left .square:nth-child(3){
+    position: absolute;
+    top: 15vw;
+    left: 0vw;
+    background-color: #0093ce;
+}
+.team-main .col-left .square:nth-child(4){
+    position: absolute;
+    top: 15vw;
+    left: 15vw;
+    background-color: #ff1c1c;
+}
+/* colonna destra */
+.team-main .col-right .square:nth-child(1){
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #b4d0e7;
+}
+.team-main .col-right .square:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 15vw;
+    background-color: #d5001f;
+}
+.team-main .col-right .square:nth-child(3){
+    position: absolute;
+    top: 15vw;
+    right: 0vw;
+    background-color: #ffd830;
+}
+.team-main .col-right .square:nth-child(4){
+    position: absolute;
+    top: 15vw;
+    right: 15vw;
+    background-color: #0d2481;
+}
+
+/* colonna centrale */
+.team-main .col-big{
+    position: absolute;
+    top: 0;
+    left: 30vw;
+    background-color: #f5f5f5;
 }
 
 
