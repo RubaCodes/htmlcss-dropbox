@@ -280,7 +280,7 @@ header.container{
 
 /* TEAM SECTION */
 .team{
-    padding:100px;
+    padding:100px 0;
 }
 .team-header h2{
     width: 55%;  
@@ -289,11 +289,11 @@ header.container{
 /* SPACING DELLE COLONNE DEL MAIN */
 
 .team-main{
-    width: 100vw;
+     width: 100%; 
     height: 30vw;
     position: relative;
 }
-.team-mian .col-big{
+.team-main .col-big{
     width: 40vw;
 }
 .team-main .col-left, .team-main .col-right{
