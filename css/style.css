@@ -136,6 +136,7 @@ header.container{
 .pricing .radio{
     padding-bottom: 40px;
 }
+
 /* da fare spacing dei radio */
 .pricing .clearfix{
     width: 100%;
@@ -186,6 +187,9 @@ header.container{
     margin-left: 45px;
     width: 20%;
     color:#e5e5e6;
+}
+.col-pricing-bottom{
+    padding-top: 25px;
 }
  .col-pricing-bottom li::before{
      content: "\f00c";
@@ -289,6 +293,9 @@ header.container{
 /* TEAM SECTION */
 .team{
     padding:100px 0;
+}
+.team-header { 
+    padding-bottom: 40px;
 }
 .team-header h2{
     width: 55%;  
