@@ -281,39 +281,42 @@ header.container{
 /* SPACING DELLE COLONNE DEL MAIN */
 
 .team-main{
-    width: 100%;
-}
-.team-main .col-little{
-    width: 30vw;
+    width: 100vw;
+    height: 30vw;
     position: relative;
 }
-.team-main .col-big{
-    width: 40%;
-}
-
-.team-main .col-little div{
-    width: 15vw;
+.team-main .square{
     height: 15vw;
+    width: 15vw;
+}
+.team-main .square:nth-child(1){
     position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #a2d39b;
 }
-.team-main .col-little img{
+.team-main .square:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 15vw;
+    background-color: #61082b;
+}
+.team-main .square:nth-child(3){
+    position: absolute;
+    top: 15vw;
+    left: 0vw;
+    background-color: #0093ce;
+}
+.team-main .square:nth-child(4){
+    position: absolute;
+    top: 15vw;
+    left: 15vw;
+    background-color: #ff1c1c;
+}
+.team-main img{
     width: 70%;
-}
-.team-main .col-little:nth-child(1){
-    top: 0;
-    left: 0;
-}
-.team-main .col-little:nth-child(2){
-    top: 0;
-    left: 15vw;
-}
-.team-main .col-little:nth-child(3){
-    top: 15vw;
-    left: 0;
-}
-.team-main .col-little:nth-child(4){
-    top: 15vw;
-    left: 15vw;
+    filter: invert(100%);
+
 }
 
 
