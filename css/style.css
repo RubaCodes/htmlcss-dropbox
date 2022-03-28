@@ -295,7 +295,7 @@ header.container{
     height: 15vw;
     width: 15vw;
 }
-.team-main img{
+.team-main .col-left img ,.team-main .col-right img{
     width: 50%;
     position: absolute;
     top:50%;
@@ -358,9 +358,24 @@ header.container{
 /* colonna centrale */
 .team-main .col-big{
     position: absolute;
+    height: 30vw;
+    width: 40vw;
     top: 0;
     left: 30vw;
     background-color: #f5f5f5;
+    padding: 50px 50px;
+}
+.team-main .col-big img{
+    width: 25%;
+    padding-bottom: 30px;
+}
+.team-main .col-big hr{
+    width: 5%;
+    color: #dedee0 ;
+}
+.team-main .col-big p{
+    text-align: left;
+    padding: 40px 0;
 }
 
 
