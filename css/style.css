@@ -283,11 +283,54 @@ header.container{
 .team-main{
     width: 100%;
 }
-.team-main .col{
-    width: 30%;
-    float: left;
+.team-main .col-little{
+    width: 30vw;
+    position: relative;
 }
-.team-main .col:nth-child(2n){
+.team-main .col-big{
     width: 40%;
-    float: left;
 }
+
+.team-main .col-little div{
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+}
+.team-main .col-little img{
+    width: 70%;
+}
+.team-main .col-little:nth-child(1){
+    top: 0;
+    left: 0;
+}
+.team-main .col-little:nth-child(2){
+    top: 0;
+    left: 15vw;
+}
+.team-main .col-little:nth-child(3){
+    top: 15vw;
+    left: 0;
+}
+.team-main .col-little:nth-child(4){
+    top: 15vw;
+    left: 15vw;
+}
+
+
+/* FAQ SECTION */
+.faq-main .col-big{
+    width: 70%;
+}
+.faq-main .col-little{
+    width: calc(30% - 8px);
+    text-align: right;
+}
+.faq-main .col-little,.faq-main .col-big{
+    display: inline-block;
+}
+.faq-main p, .faq-main i{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
