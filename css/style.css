@@ -310,7 +310,8 @@ header.container{
 }
 .team-main .col-big{
     width: 40vw;
-    overflow: scroll;
+    overflow-x: hidden;
+    
 }
 .team-main .col-left, .team-main .col-right{
     width: 30vw;
@@ -433,6 +434,9 @@ header.container{
 /* FAQ SECTION */
 .faq{
     padding: 40px 0;
+}
+.faq h2{
+    padding-bottom: 40px;
 }
 .faq-main .col-big{
     width: 70%;
