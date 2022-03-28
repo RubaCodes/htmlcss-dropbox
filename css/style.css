@@ -318,6 +318,9 @@ header.container{
 
 
 /* FAQ SECTION */
+.faq{
+    padding: 40px 0;
+}
 .faq-main .col-big{
     width: 70%;
 }
@@ -333,9 +336,6 @@ header.container{
     font-weight: bold;
 }
 
-.faq{
-    padding: 40px 0;
-}
 .faq-element{
     border-top: 1px solid #e5e5e6;
     padding: 30px 0;
@@ -349,6 +349,7 @@ header.container{
 /* footer */
     /* footer top */
     footer{
+        margin-top: 40px;
         padding: 40px 0;
         background-color: black;
         color: white;
@@ -390,3 +391,4 @@ header.container{
         font-weight: bold;
         margin-right: 4px;
     }
+/* /footer */
