@@ -289,6 +289,7 @@ header.container{
     height: 15vw;
     width: 15vw;
 }
+/* colonna sinistra */
 .team-main .square:nth-child(1){
     position: absolute;
     top: 0;
@@ -314,7 +315,11 @@ header.container{
     background-color: #ff1c1c;
 }
 .team-main img{
-    width: 70%;
+    width: 50%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     filter: invert(100%);
 
 }
