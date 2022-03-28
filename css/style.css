@@ -380,18 +380,29 @@ header.container{
 
 /* TEAM FOOTER SECTION */
 .team-footer{
-    padding:100px 0;
+    padding:150px 0;
     background-color: #b0cbe2;
     color: #61082b ;
 }
 .team-footer .col-big{
     width: 70%;
+    float: left;
 }
 .team-footer .col-little{
-    width: calc(30% - 8px);
+    width: 30%;
+    float: left;
 }
 .team-footer .col-big, .team-footer .col-little{
     display: inline-block
+}
+.team-footer h2{
+    width: 70%;
+}
+.team-footer .btn{
+    border:none;
+    padding-left: 40px;
+    padding-right: 40px;
+
 }
 
 
