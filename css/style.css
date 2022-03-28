@@ -378,6 +378,22 @@ header.container{
     padding: 40px 0;
 }
 
+/* TEAM FOOTER SECTION */
+.team-footer{
+    padding:100px 0;
+    background-color: #b0cbe2;
+    color: #61082b ;
+}
+.team-footer .col-big{
+    width: 70%;
+}
+.team-footer .col-little{
+    width: calc(30% - 8px);
+}
+.team-footer .col-big, .team-footer .col-little{
+    display: inline-block
+}
+
 
 /* FAQ SECTION */
 .faq{
